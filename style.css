@@ -62,12 +62,12 @@ body {
  
   padding-top: 0px;
 }
-
-.navbarLinks{
+.nav-item {
   position: relative;
-  right: -100px;
-    top: 24px;
+  top:30px;
+  right: -85px
 }
+
 
 .aboutMeContainer {
   height: 500px;
@@ -90,58 +90,260 @@ a:hover {
 }
 
 
-/* Media Query with max-width 780px*/
-@media screen and (max-width: 780px){
-
-  .backgroundimg1 {
-  height: 250vh;
-  width: 100%;
-}
-
-  .backgroundimg2 {
-  height: 250vh;
-  width: 100%;
-}
-
-  .backgroundimg3 {
-  height: 250vh;
-  width: 100%;
-}
-
-.img-thumbnail {
-   
-  max-width: 50%;
-  height: auto;
-  position: relative;
-  left: 25%;
-  
-}
  
- p { font-size: 1;
-    margin-top: 20px;
 
- }
-
-
-
-/* Media Query with max-width 400px*/
-
- @media screen and (max-width: 400px){
-
-  h1 {text-align: left;
+ @media only screen and (max-width: 1200px) {
+ 
+  
+  .aboutMeContainer {
+    height: 450px;
+    margin-top: 50px !important;
+    position: relative;
+    left: 0px;
   }
 
-  p {font-size: 18px;
+  .aboutMeText {
+    position: relative;
+    left:-4%;
+    }
+
+  .backgroundimg1 {
+    background-image: url('img/abstract-wave.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+  }
+
+  .img-thumbnail {
+    max-width: 100%;
+    left: 75%;
+    margin-bottom: 15px;
+  position: relative;
+    left: -34px;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .backgroundimg1 {
+    background-image: url('img/abstract-wave.jpg');
+    background-size: cover;
+    background-position:center center;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 100%;
+  }
+
+  .backgroundimg3 {
+    background-image: url(img/abstract-wave.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+    height: 1380px;
+    width: 1303px;
+}
+
+  .nameBox {
+    position: relative;
+    top: 76px;
+    left: -13px;
+  }
+
+  .navContainer1 {
+    border-style: none !important;
+    background-color: white !important;
+  }
+  .navbarLinks {
+    position: relative;
+    left: 187px;
+    top: -31px;
+  }
+
+  .navbarLinks1 {
+    position: relative;
+    top: 1px;
+  
+  }
+  .nameBox1 {
+    position: relative;
+    top: 107px;
+  }
+
+  .portfolioContainer {
+    height: 1350px;
+  }
+
+  .workCard {
+    position: relative;
+    left: 120px;
+    top: 445px;
+  }
+
+  .passwordCard {
+    position: relative;
+    left: -200px;
+    top: 425px;
+  }
+
+  .pizzaCard {
+    position: relative;
+    left: 120px;
+    top: 6px;
+  }
+  .aboutMeContainer {
+    height: 600px;
+    margin-top: 50px !important;
+    margin-right: 10px;
+    position: relative;
+    left: -10px;
+  }
+  .aboutMeText {
+    position: relative;
+    left:-7%;
+    }
+
+  .img-thumbnail {
+    width: 150px !important;
+    height: 250px !important;
+    left: 75%;
+    margin-bottom: 15px;
+  position: relative;
+    left: -38px;
+}
+p {font-size: 16px !important;
+}
+ 
+
+@media only screen and (max-width: 768px) {
+
+  .navContainer {
+    border-style: none !important;
+    background-color: white !important;
+  }
+
+  .navbarLinks {
+    position: relative;
+    left: -32px;
+    top: -31px;
+  }
+
+  .nameBox {
+    position: relative;
+    left: 62px;
+    top: -3px;
+  }
+
+  .aboutMeContainer {
+    height: 801px;
+  }
+
+  p {font-size: 15px !important;
   }
 
  .img-thumbnail {
-   max-width: 75%;
+  height: 250px !important;
+  position: relative;
+  left: 25%;
+  margin-bottom: 25px;
+ }
+  
+.aboutMeText {
+  position: relative;
+  left: 119px;
+  margin-bottom: -5px;
+}
+
+ .backgroundimg1 {
+  height: 118vh;
+    width: 917px;
+}
+
+.aboutMeText {
+position: relative;
+left:-60px;
+}
+
+.footerText {
+  position: relative;
+  right: 7.5%;
+}
+  
+   
+  
+
+
+@media only screen and (max-width: 400px) {
+
+  .navContainer {
+    border-style: none !important;
+    background-color: white !important;
+  }
+
+  .navbarLinks {
+    position: relative;
+    left: -80px;
+    top: -31px;
+  }
+ 
+  .nameBox {
+    position: relative;
+    left: 7px;
+    top: -3px;
+  }
+  .aboutMeContainer {
+    height: 1000px;
+    width: 400px;
+    margin-top: 20px !important;
+    position: relative;
+    left: 0px;
+  }
+
+  p {font-size: 16px !important;
+  }
+
+ .img-thumbnail {
+  height: 300px !important;
+  width: 200px !important;
    position: relative;
-   left: 12.5%;
+   left: 7.5%;
+   top: -19px;
+   margin-bottom: 20px;
+ }
+  
+ h1 {text-align: left;
  }
 
- 
+ .backgroundimg1 {
+  height: 130vh;
+  width: 442px;
+  position: relative;
+left:0%;
+}
 
+.aboutMeText {
+position: relative;
+left:10.5%;
+}
 
+.footerText {
+  position: relative;
+  right: 7.5%;
+}
+  
+.contactContainer {
+    height: 560px;
+  }
+
+  .portfolioContainer {
+    height: 1000px;
+  }
+  
 
  
