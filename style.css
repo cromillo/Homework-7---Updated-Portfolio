@@ -291,6 +291,18 @@ left:-60px;
     left: -80px;
     top: -31px;
   }
+
+  .navbarLinks1 {
+    position: relative;
+    top: 1px;
+    left: 20px;
+  
+  }
+  .nameBox1 {
+    position: relative;
+    top: 28px !important;
+    left: 68px !important;
+  }
  
   .nameBox {
     position: relative;
@@ -327,6 +339,11 @@ left:-60px;
 left:0%;
 }
 
+.backgroundimg3 {
+  height: 2448px;
+  width: 1303px;
+}
+
 .aboutMeText {
 position: relative;
 left:10.5%;
@@ -342,8 +359,25 @@ left:10.5%;
   }
 
   .portfolioContainer {
-    height: 1000px;
+    height: 1459px;
+    width: 900px;
   }
   
+  .workCard {
+    position: relative;
+    left: -17px;
+    top: 88px;
+  }
 
+  .passwordCard {
+    position: relative;
+    left: 22px;
+    top: 68px;
+  }
+
+  .pizzaCard {
+    position: relative;
+    left: -5px;
+    top: 6px;
+  }
  
